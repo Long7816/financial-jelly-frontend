@@ -2,6 +2,8 @@
 
 React + TypeScript + Vite。依 Stitch 第四版的資訊層級與既有 Warm Editorial Konjac 色票，建立可操作的財報研究工作台。
 
+公開網站：[財報蒟蒻 GitHub Pages](https://long7816.github.io/financial-jelly-frontend/)
+
 目前完成範圍：
 
 - 研究入口：搜尋、搜尋無結果／未開放狀態、最近研究、自選增刪。
@@ -51,7 +53,7 @@ npm run preview
 
 完整流程請看 [GitHub Pages 部署說明](./docs/github-pages-workflow.md)。
 
-採用 HashRouter 與相對資源路徑，為 GitHub Pages 專案子目錄預備；本階段尚未推送或部署。前端不可保存 API Key；`.env.example` 只預留公開後端網址。
+採用 HashRouter 與相對資源路徑，透過 GitHub Actions 從 `main` 自動建置並部署至 GitHub Pages。前端不可保存 API Key；`.env.example` 只預留公開後端網址。
 
 ## 驗收測試
 
