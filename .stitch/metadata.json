@@ -1,0 +1,403 @@
+{
+  "name": "projects/10236188760361181982",
+  "projectId": "10236188760361181982",
+  "title": "第四版（輸入公司後）",
+  "visibility": "PRIVATE",
+  "projectType": "TEXT_TO_UI_PRO",
+  "origin": "STITCH",
+  "deviceType": "DESKTOP",
+  "metadata": {
+    "userRole": "OWNER"
+  },
+  "designSystem": {
+    "name": "assets/1bb6d1455b724e269c03c28fba410561",
+    "title": "Warm Editorial Konjac"
+  },
+  "brandAssets": {
+    "financialKonjacMascot": {
+      "name": "projects/18443706190868740340/screens/10633959060347673067",
+      "title": "financial-konjac-mascot-v1.png"
+    }
+  },
+  "activeVersion": "v4",
+  "activeDesignPhase": "afterCompany",
+  "workspaceScope": {
+    "currentWorkingProject": {
+      "projectId": "10236188760361181982",
+      "title": "第四版（輸入公司後）"
+    },
+    "projectContexts": {
+      "beforeCompany": {
+        "projectId": "18443706190868740340",
+        "title": "第四版（輸入公司前）"
+      },
+      "afterCompany": {
+        "projectId": "10236188760361181982",
+        "title": "第四版（輸入公司後）"
+      }
+    },
+    "readOnlyBackup": {
+      "projectId": "8829880735975107355",
+      "title": "Duplicate of 第三版（輸入公司後）",
+      "policy": "Do not generate, edit, move, hide, or delete screens in this backup project."
+    }
+  },
+  "activeBeforeCompanyReference": {
+    "status": "implemented_and_verified",
+    "projectId": "18443706190868740340",
+    "screens": {
+      "researchGateway": "809391d7aef5493aa5a2755d74ed44a3",
+      "companyExplore": "af2c5a6a5eea4ce09d7c01e3049b450a",
+      "watchlist": "6696d68cdf7740179beddf17fe5898a8",
+      "marketAndIndustry": "25d886b09f444c76a936ebe78200a6e8",
+      "eventsCalendar": "d7c1c0cd57774e90995b5d0e70a6ef32",
+      "aiFinancialAssistant": "6ec5048f786443de83110fdc05233fee"
+    },
+    "implementationColorPolicy": "Use src/styles.css tokens; reference Stitch for layout and hierarchy only.",
+    "verification": "2026-09-23: typecheck, production build, 16 Playwright desktop/mobile checks, and local visual review passed."
+  },
+  "activeAfterCompanyReference": {
+    "status": "implemented_and_verified",
+    "projectId": "10236188760361181982",
+    "screens": {
+      "companyOverview": "7bdfe745fc424f008a5a3de8cea561e8",
+      "companyTechnical": "9e59b3127455465cbcdc6266662a6b96",
+      "companyOperationsProfitability": "08283eda9ba04d08bea94586c3a9b822",
+      "companyCashFlow": "3fd5fea7011d4ccf956d2960e8dc39a2",
+      "companyFinancialSafety": "38f35fc23afd46c9b09d0ab1806dbaa8",
+      "companyRiskEvidence": "494b151e4c5341e18e6121fa38ece062",
+      "companyValuationPeers": "d0a4e3bfca5142b78ea928ed00d2f7de",
+      "companyInstitutionalFlow": "7a021f4845ac4aea93fd6ffe5db5a313",
+      "aiFinancialAssistant": "shared_existing_route_/assistant"
+    },
+    "implementationColorPolicy": "Use src/styles.css tokens; reference Stitch for layout and hierarchy only.",
+    "aiPolicy": "Reuse the existing shared /assistant page; do not create a company-specific duplicate.",
+    "verification": "2026-09-23: typecheck, production build, 18 Playwright desktop/mobile checks, and 1280x900 local visual review passed."
+  },
+  "versions": {
+    "v1": {
+      "beforeCompany": {
+        "researchGateway": "0ffb9fdfe7f54cbd9866b2a8b1679e8f",
+        "companyExplore": "0687753efe7a463ba601df317a8b7ce4",
+        "watchlist": "7bccecb1c72f4dbc8ac4079af53b79cf",
+        "marketAndIndustry": "e5682448fc2347dc9190a670b25b1105",
+        "eventsCalendar": "bd26eccc2d2342fab17de3c7b95e9570"
+      },
+      "afterCompany": {
+        "companyOverview": "27325e4554954d05a3dce6acdb4c1110",
+        "companyTechnical": "1af111e88d494378abdb0375f100a0e7",
+        "companyOperationsProfitability": "11d02cb0d9c840fab1f2cec8f01f98c0",
+        "companyCashFlow": "dba28125008247518abaa052db9acedf",
+        "companyFinancialSafety": "e2eb7f3d06754a2bbf65229cc70a4392",
+        "companyValuationPeers": "dcbfb0a29cda4a8c9b75e32661c9b31f",
+        "companyInstitutionalFlow": "a246d459969d41df946c1ed0ce894296",
+        "companyRiskEvidence": "d8ff7b78d8104e18918b662379e560f5"
+      }
+    },
+    "v2": {
+      "beforeCompany": {
+        "researchGateway": "897fa17d22ca4046bc63b14591189c9c",
+        "companyExplore": "b75590768bc24df8ab33a370ff512f64",
+        "watchlist": "3dd05741084c4ae7b3b67df03af41ce1",
+        "marketAndIndustry": "bfcb0b75d5ed476391b52b7bd912a86f",
+        "eventsCalendar": "e53fee683d5a4f9691fe258739ec2f6a"
+      },
+      "afterCompany": {
+        "companyOverview": "6a4de6469994419f8c99b4198a30df13",
+        "companyTechnical": "d6b3bc0eae4444fcaeac7bba7efaefff",
+        "companyOperationsProfitability": "ad0a865dad8245828532b888bf7411dd",
+        "companyCashFlow": "a7d45d7f84654bc9b041b5ccf3389aa0",
+        "companyFinancialSafety": "4efe5adaefde421ba74cb6276b825236",
+        "companyValuationPeers": "99284390525947f18d4c486505cdeea1",
+        "companyInstitutionalFlow": "bc7c83d55d984414874c2871aff0446c",
+        "companyRiskEvidence": "63691638e27c46b0a68c53b7bc6ca74f"
+      }
+    },
+    "v3_discarded": {
+      "status": "deprecated_hidden_from_canvas",
+      "beforeCompany": {
+        "researchGateway": "0739ea7c712b493eb88947773c2c5516"
+      },
+      "afterCompany": {
+        "companyOverview": "6051e5d9c9724ddab867bc15646ca0ab",
+        "companyOperationsProfitability": "1c9ed916dff34f3a89f399e754227c83",
+        "companyCashFlowAndSafety": "3fa0d67754dd40939ed5e28593699d2f",
+        "companyRiskEvidence": "f68226976ca94f1aa0f97166372378c2",
+        "aiFinancialQna": "0cb7302e380d4685bcc2d66faf30e30f"
+      },
+      "supersededDrafts": {
+        "companyOperationsProfitabilityLongDraft": "29bd0017e62e4c62a1cb340992a70dc9"
+      }
+    },
+    "v3": {
+      "status": "design_final_candidate",
+      "beforeCompany": {
+        "researchGateway": "809391d7aef5493aa5a2755d74ed44a3",
+        "companyExplore": "af2c5a6a5eea4ce09d7c01e3049b450a",
+        "watchlist": "6696d68cdf7740179beddf17fe5898a8",
+        "marketAndIndustry": "25d886b09f444c76a936ebe78200a6e8",
+        "eventsCalendar": "d7c1c0cd57774e90995b5d0e70a6ef32",
+        "aiFinancialAssistant": "6ec5048f786443de83110fdc05233fee"
+      },
+      "afterCompany": {
+        "companyOverview": "9494274cae3a4c17860c71c6377f3056",
+        "companyTechnical": "9d5990889d024495b3307686435c42e5",
+        "companyOperationsProfitability": "7b0b1cac4d7a40f3aca3cd8ba0362764",
+        "companyCashFlow": "b9a5a42c8e81408693010c0eec97f2e6",
+        "companyFinancialSafety": "ceb731193e244bd5b985ce142f9f8e27",
+        "companyRiskEvidence": "4a872beaa2ec4b46acc762b58b986acf",
+        "companyValuationPeers": "5071e1c531d3454198090890376f3ab5",
+        "companyInstitutionalFlow": "c47dc4f68b234cc9891859af23b5f12d",
+        "aiFinancialAssistant": "475189e3d5984cd5ad7ae8f9a2939299"
+      },
+      "supersededAfterCompanyDrafts": {
+        "status": "hidden_from_canvas_after_user_confirmed_cleanup",
+        "companyOverview": "fec5536ce36048059fe653ad814f33a9",
+        "companyTechnical": "1391f3b1d45044d7b6b5295f5ddc4cf4",
+        "companyOperationsProfitability": "1ff90e9cdd134224b12b47178a88e9d6",
+        "companyCashFlow": "6020b3b39dc240e89d62b1a37867507b",
+        "companyFinancialSafety": "f6164295ec744d4292cc618d59d1ab8e",
+        "companyRiskEvidence": "bbb470aefe21425f97d7ff888c3423f0",
+        "companyValuationPeers": "fa219913ec0b4d388f74511e695cbebc",
+        "companyInstitutionalFlow": "ef36d40a29ed48f7ba68f6b8a29b4ca3",
+        "aiFinancialAssistant": "9bbf8c0f742a4da190c5ce0ae85df7d4"
+      },
+      "navigationShell": {
+        "referenceScreen": "809391d7aef5493aa5a2755d74ed44a3",
+        "sidebarWidth": 224,
+        "items": [
+          "研究入口",
+          "公司探索",
+          "我的自選",
+          "市場與產業",
+          "財報／法說行事曆"
+        ],
+        "aiEntry": "fixed_bottom",
+        "consistency": "locked"
+      },
+      "afterCompanyNavigationShell": {
+        "referenceScreen": "9494274cae3a4c17860c71c6377f3056",
+        "sidebarWidth": 224,
+        "companyCard": "currently_selected_company",
+        "companyResearch": [
+          "公司總覽",
+          "股價與技術"
+        ],
+        "financialAnalysis": [
+          "營運與獲利",
+          "現金流",
+          "財務安全",
+          "風險與證據"
+        ],
+        "comparisonAndMarket": [
+          "估值與同業",
+          "籌碼與法人"
+        ],
+        "operatingEfficiencyPlacement": "tab_inside_companyOperationsProfitability",
+        "aiEntry": "fixed_bottom_dedicated_page",
+        "consistency": "locked"
+      }
+    },
+    "v4": {
+      "status": "implemented_pending_user_product_review",
+      "generatedAt": "2026-09-23",
+      "projectId": "10236188760361181982",
+      "designSystem": "assets/1bb6d1455b724e269c03c28fba410561",
+      "afterCompany": {
+        "companyOverview": "7bdfe745fc424f008a5a3de8cea561e8",
+        "companyTechnical": "9e59b3127455465cbcdc6266662a6b96",
+        "companyOperationsProfitability": "08283eda9ba04d08bea94586c3a9b822",
+        "companyCashFlow": "3fd5fea7011d4ccf956d2960e8dc39a2",
+        "companyFinancialSafety": "38f35fc23afd46c9b09d0ab1806dbaa8",
+        "companyRiskEvidence": "494b151e4c5341e18e6121fa38ece062",
+        "companyValuationPeers": "d0a4e3bfca5142b78ea928ed00d2f7de",
+        "companyInstitutionalFlow": "7a021f4845ac4aea93fd6ffe5db5a313",
+        "aiFinancialAssistant": "864eede973904c55ad8ce350ec25dbd1"
+      },
+      "supersededDrafts": {
+        "companyCashFlowLongDraft": "2d13791014124f95919d07156183fb46"
+      },
+      "navigationShell": {
+        "sidebarWidth": 224,
+        "companyCardMaxHeight": 86,
+        "aiEntry": "fixed_bottom",
+        "consistency": "locked"
+      },
+      "truthfulnessPolicy": {
+        "mockLabel": "Demo Mock｜尚未連接真實資料",
+        "allowedStatuses": [
+          "示意數值",
+          "待資料核對",
+          "尚未驗證",
+          "尚未執行",
+          "尚未連接資料",
+          "資料不足"
+        ],
+        "forbiddenClaims": [
+          "健全優良",
+          "防護墊",
+          "無異常塞貨",
+          "Guardian 通過",
+          "安全",
+          "正常",
+          "通過",
+          "已驗證",
+          "審定",
+          "值得投資"
+        ]
+      },
+      "layoutPolicy": {
+        "headerMetadata": "three equal parallel short rules with gaps; never one connected line",
+        "firstViewport": "maximum three KPI cards, one primary visualization, one metric selector row, one compact value strip, and three collapsed detail rows",
+        "removed": [
+          "right summary rail",
+          "unsupported conclusion cards",
+          "news",
+          "rankings",
+          "large first-view tables",
+          "auto-open chat bubble"
+        ]
+      },
+      "implementationColorPolicy": {
+        "sourceOfTruth": "src/styles.css",
+        "note": "Use V4 Stitch screens for layout and hierarchy only. Do not copy Stitch-generated approximate colors.",
+        "canvas": "#F7F1E8",
+        "card": "#FFFCF7",
+        "sidebar": "#F3ECE2",
+        "primaryClay": "#B85C38",
+        "ink": "#2B2926",
+        "chartAmber": "#C28A36",
+        "marketUp": "#AD3938",
+        "marketDown": "#39704C"
+      }
+    }
+  },
+  "desiredCanvasOrder": {
+    "activeSet": "v4",
+    "sectionOrder": ["afterCompany"],
+    "screenOrder": [
+      "companyOverview",
+      "companyTechnical",
+      "companyOperationsProfitability",
+      "companyCashFlow",
+      "companyFinancialSafety",
+      "companyRiskEvidence",
+      "companyValuationPeers",
+      "companyInstitutionalFlow",
+      "aiFinancialAssistant"
+    ],
+    "physicalLayoutStatus": "v4_reference_set_implemented_in_react_pending_user_product_review",
+    "reason": "The nine V4 screen IDs are locked in metadata. The V3 backup project remains read-only and the earlier long cash-flow draft is not part of the active V4 set."
+  },
+  "nextDevelopmentCandidate": {
+    "version": "v4",
+    "status": "implemented_and_verified",
+    "screenMap": "STITCH_V4_SCREEN_MAP.md",
+    "note": "V4 has been implemented and technically verified; product acceptance remains with the user."
+  },
+  "developmentBaseline": {
+    "version": "v4",
+    "status": "implemented_and_verified",
+    "screenMap": "STITCH_V4_SCREEN_MAP.md",
+    "scope": "nine after-company product pages: overview, price and technical, operations and profitability with efficiency tab, cash flow, financial safety, risk and evidence, valuation and peers, institutional flow, and AI financial assistant",
+    "aiPattern": "one shared /assistant page and one component for all entry points, independent of before/after company state; no company/year selectors before asking; show editable parsed company/year/intent/route chips after submission; fixed bottom sidebar entry",
+    "implementationCheckpoint": "before-company workspace and eight after-company research pages completed; shared AI route retained",
+    "implementationNote": "V4 layout and hierarchy are implemented with warm CSS tokens. All finance and market values remain explicit UI Mock; no live financial or Agent API is connected."
+  },
+  "latestDesignIteration": {
+    "name": "v3_metric_workspace_rework",
+    "status": "generated_pending_user_review",
+    "generatedAt": "2026-09-22",
+    "projectId": "10236188760361181982",
+    "designSystem": "assets/1bb6d1455b724e269c03c28fba410561",
+    "afterCompany": {
+      "companyOverview": "d8954c6c8f59499f88244caeaf7e4613",
+      "companyTechnical": "3d3bffe9728340b4b83e9ea2ff8e5cea",
+      "companyOperationsProfitability": {
+        "title": "財報蒟蒻－營運與獲利｜五年指標工作台（第三版新版）",
+        "status": "generated_screen_id_pending_reconciliation"
+      },
+      "companyCashFlow": {
+        "title": "財報蒟蒻－現金流｜五年指標工作台（第三版新版）",
+        "status": "generated_screen_id_pending_reconciliation"
+      },
+      "companyFinancialSafety": "56aec5616c1f4f989ee88f8d0fba41f8",
+      "companyRiskEvidence": "8d11113a06164e6291402d5fca7c026d",
+      "companyValuationPeers": "4df21f9c772441878aa6b35ee216cf59",
+      "companyInstitutionalFlow": "e5e6f39dcf304469a5a0336d2dc0a997",
+      "aiFinancialAssistant": "fc0df6b5a7a646f1983796cbbbdce28f"
+    },
+    "interactionPattern": "each analysis page has common metric controls that switch one five-year chart and a persistent five-year value table without navigation",
+    "reviewNote": "Keep KPI and upper chart area in the first viewport; move full five-year tables, formulas, source excerpts and Guardian detail below or into collapsed sections during React implementation."
+  },
+  "screens": {
+    "researchGateway": {
+      "name": "projects/10236188760361181982/screens/0ffb9fdfe7f54cbd9866b2a8b1679e8f",
+      "title": "財報蒟蒻－研究入口（品牌吉祥物精修版）"
+    },
+    "researchGatewayNoMascotDraft": {
+      "name": "projects/10236188760361181982/screens/8406fa7936a94401947787e508a915b7",
+      "title": "財報蒟蒻－研究入口（尚未選擇公司）"
+    },
+    "companyExplore": {
+      "name": "projects/10236188760361181982/screens/0687753efe7a463ba601df317a8b7ce4",
+      "title": "財報蒟蒻 - 公司探索 (尚未選定公司研究入口工具頁)"
+    },
+    "watchlist": {
+      "name": "projects/10236188760361181982/screens/7bccecb1c72f4dbc8ac4079af53b79cf",
+      "title": "財報蒟蒻 - 我的自選 (Warm Editorial Konjac)"
+    },
+    "marketAndIndustry": {
+      "name": "projects/10236188760361181982/screens/e5682448fc2347dc9190a670b25b1105",
+      "title": "財報蒟蒻 - 市場與產業 (Warm Editorial Konjac)"
+    },
+    "eventsCalendar": {
+      "name": "projects/10236188760361181982/screens/bd26eccc2d2342fab17de3c7b95e9570",
+      "title": "財報蒟蒻 - 財報／法說行事曆 (Warm Editorial Konjac)"
+    },
+    "companyOverview": {
+      "name": "projects/10236188760361181982/screens/27325e4554954d05a3dce6acdb4c1110",
+      "title": "財報蒟蒻 - 個股總覽 (2303 聯電)"
+    },
+    "companyTechnical": {
+      "name": "projects/10236188760361181982/screens/1af111e88d494378abdb0375f100a0e7",
+      "title": "財報蒟蒻 - 股價與技術 (2303 聯電)"
+    },
+    "companyOperationsProfitability": {
+      "name": "projects/10236188760361181982/screens/11d02cb0d9c840fab1f2cec8f01f98c0",
+      "title": "財報蒟蒻 - 營運與獲利 (2303 聯電)"
+    },
+    "companyCashFlow": {
+      "name": "projects/10236188760361181982/screens/dba28125008247518abaa052db9acedf",
+      "title": "財報蒟蒻 - 現金流分析 (2303 聯電)"
+    },
+    "companyFinancialSafety": {
+      "name": "projects/10236188760361181982/screens/e2eb7f3d06754a2bbf65229cc70a4392",
+      "title": "財報蒟蒻 - 財務安全 (2303 聯電)"
+    },
+    "companyValuationPeers": {
+      "name": "projects/10236188760361181982/screens/dcbfb0a29cda4a8c9b75e32661c9b31f",
+      "title": "財報蒟蒻 - 估值與同業 (2303 聯電)"
+    },
+    "companyInstitutionalFlow": {
+      "name": "projects/10236188760361181982/screens/a246d459969d41df946c1ed0ce894296",
+      "title": "財報蒟蒻 - 籌碼 (2303 聯電)"
+    },
+    "companyRiskEvidence": {
+      "name": "projects/10236188760361181982/screens/d8ff7b78d8104e18918b662379e560f5",
+      "title": "財報蒟蒻 - 財報風險與證據 (2303 聯電)"
+    },
+    "researchHomeDataFirstDraft": {
+      "name": "projects/10236188760361181982/screens/3f73bbaa87f94c6d8910d766c71cff25",
+      "title": "財報蒟蒻－研究總覽（資料優先精簡版）"
+    },
+    "researchHomeWarmDraft": {
+      "name": "projects/10236188760361181982/screens/ed4943fcf80f4c89b222c09688d61012",
+      "title": "財報蒟蒻 - 台灣 IFRS 財報研究工作台 (溫暖陶土與專屬蒟蒻角色重製版)"
+    },
+    "stockTechnicalAnalysisLegacyDraft": {
+      "name": "projects/10236188760361181982/screens/91a8cb711ba24a3a991a3b1b91cd40bf",
+      "title": "財報蒟蒻－聯電 2303 股價與技術分析"
+    }
+  }
+}
